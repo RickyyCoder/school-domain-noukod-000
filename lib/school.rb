@@ -23,12 +23,11 @@ class School
     roster[num]
   end
 
-def sort 
-  sorted = {}
-  roster.each do |nums, students|
-    sorted[nums] = students.sort
+  def sort
+    sorted = {}
+    roster.each do |key, values|
+      sorted[key] = values.sort
+    end
+    sorted
   end
-  sorted
-end
-
  end
