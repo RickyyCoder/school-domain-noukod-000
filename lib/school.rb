@@ -1,5 +1,5 @@
 class School
-#name and roster are methods that are initialized be the initialize me
+#name and roster are methods that are initialized be the initialize method
    attr_accessor :name, :roster
 
    def initialize(name)
