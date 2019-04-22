@@ -19,6 +19,7 @@ class School
 
 # the grade method takes a number, and
 # return the list of students associated with it in the hash
+
    def grade(num)
     roster[num]
   end
