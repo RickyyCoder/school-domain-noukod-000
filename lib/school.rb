@@ -8,7 +8,8 @@ class School
   end
 
    def add_student(name, grade)
-   
+     # we will empty the grade unless there's already a grade in the place
+    if not roster[grade] then
     roster[grade] << name
   end
 
