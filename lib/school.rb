@@ -7,6 +7,8 @@ class School
     @roster = {}
   end
 
+     # we will empty the grade unless there's already a grade in the place
+
    def add_student(name, grade)
     roster[grade] = [] unless roster[grade]
     roster[grade] << name
