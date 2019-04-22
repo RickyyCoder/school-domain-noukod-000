@@ -9,7 +9,7 @@ class School
 
    def add_student(name, grade)
      # we will empty the grade unless there's already a grade in the place
-    if not roster["grade"]
+    if not roster[grade]
       roster[grade] = []
     end
     
