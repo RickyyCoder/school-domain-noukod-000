@@ -1,5 +1,6 @@
 class School
 #name and roster are methods that are initialized be the initialize method
+# name has an instance variable, and roster an instance hash
    attr_accessor :name, :roster
 
    def initialize(name)
